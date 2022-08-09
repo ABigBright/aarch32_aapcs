@@ -134,7 +134,7 @@ int fc(int a, int b, int c, int d, int e, int f)
 
 + fa有2个参数(r0, r1承载)，所以在fa call fb，需要caller（fa）保存r0, r1
 + fb有1个参数(r0承载), 所以在fb call fc，需要caller(fb)保存r0
-+ fc有6个参数(r0~r3, 剩下的入栈)， 所以在fc call fa, 需要caller(fc)保存r0~r3
++ fc有6个参数(r0\~r3, 剩下的入栈)， 所以在fc call fa, 需要caller(fc)保存r0\~r3
 
 # Sumary
 
