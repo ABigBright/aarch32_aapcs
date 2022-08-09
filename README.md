@@ -138,4 +138,4 @@ int fc(int a, int b, int c, int d, int e, int f)
 
 # Sumary
 
-根据AAPCS的标准描述，aarch32的参数使用r0~r3,来作为过程调用传递参数，也就是说，作为caller，需要维护r0~r3, 其余的寄存器，需要callee去维护（即callee-saved register）
+根据AAPCS的标准描述，aarch32的参数使用r0\~r3,来作为过程调用传递参数，也就是说，作为caller，需要维护r0\~r3, 其余的寄存器，需要callee去维护（即callee-saved register）
